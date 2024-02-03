@@ -1,9 +1,4 @@
-# data from url: https://opencores.org/projects/plasma/opcodes
-# MIPS code to machine code converter
-# example:
-# add $1,$2,$6 ---> valid
-# SUB $2 $6 $4 ---> valid, case is ignored
-# and $r1,$r2,$r3 ->invalid, only digit type is accpetted
+# there's MIPStoMC.md for user guide
 
 import re
 def split_cmd(cmd):
