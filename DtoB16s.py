@@ -4,7 +4,7 @@
 
 # Using bin() or int() may be a better solution
 
-def Dto16Bs(istr):
+def Dto16Bs(istr):    #type:int
     dec=int(istr)
     b=[]
     if(dec>=0):
@@ -24,4 +24,4 @@ def Dto16Bs(istr):
                 b.append("1")
                 start=start+pow(2,e)
     Bjoin="".join(b)
-    return Bjoin
+    return Bjoin    #type:string
