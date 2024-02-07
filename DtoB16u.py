@@ -3,7 +3,7 @@
 
 # Using bin() or int() may be a better solution
 
-def Dto16Bu(dec):				#type:int
+def Dto16Bu(dec):		#type:int
     b=[]
     for p in range(15,-1,-1):
         if(dec-pow(2,p))>=0:
@@ -12,4 +12,4 @@ def Dto16Bu(dec):				#type:int
         else:
             b.append("0")
     Bjoin="".join(b)
-    return Bjoin				#type:string
+    return Bjoin		#type:string
