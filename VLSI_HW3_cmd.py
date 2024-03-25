@@ -24,7 +24,7 @@
 p=["ss","ff","tt","snfp","fnsp"]
 TEMP=[0,25,75]
 vdd=[1.62,1.8,1.98]
-# First, create a  "alter.txt" in the directory where you are running this code
+# will create alter.txt in the directory of this python file
 path = 'alter.txt'
 f = open(path, 'w')
 
