@@ -20,7 +20,7 @@
 # note that when you run this program, 
 # you should clean the txt file first,
 # otherwise the data will be appended to the file
-
+# copy the output text and paste before the last line "end"
 p=["ss","ff","tt","snfp","fnsp"]
 TEMP=[0,25,75]
 vdd=[1.62,1.8,1.98]
